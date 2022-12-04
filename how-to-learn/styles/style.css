@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -16,16 +16,119 @@
   /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+/* .header_logo {
+  width: 228px;
+  height: 32px;
+} */
+
+.header_logo_place_header {
+  width: 228px;
+  height: 32px;
+  left: 64px;
+  top: 30px;
+  position: absolute;
+}
+
+.header_title {
+  width: 730px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  left: 64px;
+  position: absolute;
+  z-index: 100;
+  line-height: 96px;
+  font-size: 102;
+  font-weight: 600;
+}
+
+.header_subtitle {
+  width: 388px;
+  left: 64px;
+  position: absolute;
+  /* position: absolute; возможно нужно удалить, свпомог элемент для z-index */
+  z-index: 100;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18;
+  font-weight: normal;
+}
+
+.header_square-pic {
+  width: 568px;
+  height: 568px;
+  right: 0px;
+  top: 64px;
+  background-color: #2f80ed;
+  position: absolute;
+  z-index: 0;
+}
+.header_main-illustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.header_main-illustration_img {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  z-index: 1;
+}
+
+.redline {
+  border: 1px solid red;
+}
+
+.description {
+  display: flex;
+  margin: auto;
+}
+
+.description_two-columns {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 80%;
+}
+
+.description_two-columns_brief {
+  display: flex;
+  left: 0;
+  flex-direction: column;
+  width: 175px;
+  height: 1.2px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.description_two-columns_main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 784px;
+  width: 80%;
+  min-height: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
