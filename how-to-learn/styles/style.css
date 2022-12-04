@@ -180,3 +180,44 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+.feynman {
+  height: 100vh;
+  min-height: 890px;
+  max-height: 890px;
+}
+
+.feynman_img {
+  display: flex;
+  left: 0px;
+  bottom: 0px;
+  width: 867px;
+  height: 637px;
+}
+
+.feynman_title {
+  display: flex;
+  margin: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  width: 648;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.feynman_subtitle {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman_link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
