@@ -57,8 +57,8 @@
         </two-columns>
       </description>
 
-      <digits class="redline digits">
-        <section-title class="digits_section-title"
+      <digits2 class="redline digits">
+        <section-title class="redline digits_section-title"
           >Цифры и факты</section-title
         >
         <section-subtitle class="redline digits_section-subtitle">
@@ -111,25 +111,20 @@
             </div>
           </div>
         </section-subtitle>
-      </digits>
-      <feynman class="redline feynman">
-        <div class="redline feynman_row">
-          <title class="redline feynman_title">Метод Фейнмана</title>
-          <subtitle class="redline feynman_subtitle">Выучить и не забыть.</subtitle>
-          <link class="redline feynman_link">
-            <a href="#" class="redline feynman_link">Подробнее&rarr;</a>
-          </link>
+      </digits2>
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a class="feynman__link" href="#">Подробнее&rarr;</a>
+        <img class="image" src="./images/feynman.png" alt="feynman" />
+      </section>
 
-          <img
-            class="redline feynman_img"
-            src="../how-to-learn/images/feynman.png"
-            alt="feynman"
-          >
-        </div>
-      </feynman>
+      <section class="redline kaufman">
+        <triangle class="kaufman_triangle"></triangle>
+        <section-title class="digits_section-title_theme_dark"
+          >Принципы обучения</section-title
+        >
 
-      <kaufman class="redline kaufman">
-        <section-title class="digits_section-titlet_theme_dark">Принципы обучения</section-title>
         <section-subtitle class="redline digits_section-subtitle_theme_dark">
           <h2 class="digits_subtitle_theme_dark">от Джоша Кауфмана</h2>
           <div class="redline digits_table_theme_dark">
@@ -144,13 +139,13 @@
               <div class="digits_table_text_theme_dark">
                 Сосредоточьтесь на каком-то одном навыке.
               </div>
-
             </div>
             <div class="digits_table_cell_theme_dark">
               <div class="digits_table_heading_theme_dark">3</div>
-              <div class="digits_table_text_theme_dark">Определите целевой уровень мастерства.</div>
+              <div class="digits_table_text_theme_dark">
+                Определите целевой уровень мастерства.
+              </div>
             </div>
-
             <div class="digits_table_cell_theme_dark">
               <div class="digits_table_heading_theme_dark">4</div>
               <div class="digits_table_text_theme_dark">
@@ -162,35 +157,75 @@
               <div class="digits_table_text_theme_dark">
                 Приготовьте всё необходимое для занятий.
               </div>
-
             </div>
             <div class="digits_table_cell_theme_dark">
               <div class="digits_table_heading_theme_dark">6</div>
-              <div class="digits_table_text_theme_dark">Устраните препятствия для занятий.</div>
+              <div class="digits_table_text_theme_dark">
+                Устраните препятствия для занятий.
+              </div>
             </div>
             <div class="redline digits_table_cell_theme_dark">
               <div class="digits_table_heading_theme_dark">7</div>
-              <div class="digits_table_text_theme_dark">Выделите специальное время для занятий.</div>
+              <div class="digits_table_text_theme_dark">
+                Выделите специальное время для занятий.
+              </div>
             </div>
             <div class="digits_table_cell_theme_dark">
               <div class="digits_table_heading_theme_dark">8</div>
-              <div class="digits_table_text_theme_dark">Создайте быстрые петли обратной связи.</div>
+              <div class="digits_table_text_theme_dark">
+                Создайте быстрые петли обратной связи.
+              </div>
             </div>
             <div class="redline digits_table_cell_theme_dark">
               <div class="digits_table_heading_theme_dark">9</div>
-              <div class="digits_table_text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</div>
+              <div class="digits_table_text_theme_dark">
+                Занимайтесь по расписанию, короткими интенсивными интервалами.
+              </div>
             </div>
             <div class="digits_table_cell_theme_dark">
               <div class="digits_table_heading_theme_dark">10</div>
-              <div class="digits_table_text_theme_dark">Уделяйте внимание количеству и скорости.</div>
+              <div class="digits_table_text_theme_dark">
+                Уделяйте внимание количеству и скорости.
+              </div>
             </div>
           </div>
         </section-subtitle>
-        <triangle class="kaufman_triangle"></triangle>
-      </kaufman>
+      </section>
 
-      <footer class="redline footer logo footer__logo">
-        <div class="redline footer__logo"></div>
+      <footer class="redline footer">
+        <columns class="footer_columns">
+          <columns-content_copyright class="column-content_copyright">
+            <div class="redline footer__logo">
+              <img
+              class="redline footer__logo"
+              src="../how-to-learn/images/logo_place_footer.svg"/></div>
+            <div class="footer_author">&copy; Viktoriya Lusikova</div>
+          </columns-content_copyright>
+          <column-content_info class="footer_column-content_info">
+            <column-heading class="footer_column-heading">О Практикуме</column-heading>
+            <column-links class="footer_column-links">
+            <a href="#">Главная</a>
+            <a href="#">Концепция</a>
+            <a href="#">Наставники</a>
+            </column-links>
+          </column-content_info>
+          <column-content_social class="footer_column-content_info">
+            <column-heading class="footer_column-heading">Соцсети</column-heading>
+            <social-icon class="footer_social-icon">
+              <!-- <a class="footer_social-icons" href="#"><div class="save_xl">YouTube</div></a> -->
+              <img
+              class="footer_social-icons"
+              src="../how-to-learn/images/youtube-icon.svg"/><a href="#">YouTube</a>
+              <img
+              class="footer_social-icons"
+              src="../how-to-learn/images/tiktok-icon.svg"/><a href="#">Вконтакте</a>
+              <img
+              class="footer_social-icons"
+              src="../how-to-learn/images/vk_color_white.svg"/><a href="#">TikTok</a>
+            </social-icon>
+            <column-link class="footer_column-link"></column-link>
+          </social-icon> </column-content_social
+        ></columns>
       </footer>
     </div>
   </body>
